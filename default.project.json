@@ -1,0 +1,40 @@
+{
+  "name": "Help with Roact",
+  "tree": {
+    "$className": "DataModel",
+
+    "StarterPlayer": {
+      "$className": "StarterPlayer",
+
+      "StarterPlayerScripts": {
+        "$className": "StarterPlayerScripts",
+
+        "Example": {
+          "$path": "src"
+        }
+      }
+    },
+
+    "ReplicatedStorage": {
+      "$className": "ReplicatedStorage",
+
+      "Roact": {
+        "$path": "modules/roact/src"
+      }
+    },
+
+    "Players": {
+      "$className": "Players",
+      "$properties": {
+        "CharacterAutoLoads": false
+      }
+    },
+
+    "HttpService": {
+      "$className": "HttpService",
+      "$properties": {
+        "HttpEnabled": true
+      }
+    }
+  }
+}
